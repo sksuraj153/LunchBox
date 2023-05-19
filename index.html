@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="Description" content="Enter your description here" />
+  <title>Lunch Box</title>
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+
+  <!-- OWN CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- header design -->
+  <header>
+    <nav class="navbar navbar-expand-lg navigation-wrap">
+      <div class="container">
+        <p id="Logo-font" style="font-family: 'Black Dragon'">Lunch Box</p>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-stream navbar-toggler-icon"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#explore-food">Our Bestsellers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonial">Our Motivation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- section-1 top-banner -->
+  <section id="home">
+    <div class="container-fluid px-0 top-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-md-6">
+            <h1>Good Food Choices are Good Investments.</h1>
+            <p>
+              The farmer is the first link in the food chain. We connect them
+              directly to you. Super fresh, really good quality, taste that
+              stays with you. 100% natural, no pesticides or chemical
+              fertilizers. A one-stop-shop for your organic food needs.
+            </p>
+            <div class="mt-4">
+              <button class="white-btn ms-lg-4 mt-lg-0 mt-4">
+                Learn More <i class="fas fa-angle-right ps-3"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section-2 counter -->
+  <section id="counter">
+    <section class="counter-section">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+            <h2><span id="count1"></span>+</h2>
+            <p>FARMERS</p>
+          </div>
+          <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+            <h2><span id="count2"></span>+</h2>
+            <p>CUSTOMERS</p>
+          </div>
+          <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+            <h2><span id="count3"></span>+</h2>
+            <p>SERVINGS</p>
+          </div>
+          <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+            <h2><span id="count4"></span>+</h2>
+            <p>FOLLOWERS</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <!-- section-3 about-->
+  <section id="about">
+    <div class="about-section wrapper">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-7 col-md-12 mb-lg-0 mb-5">
+            <div class="card border-0">
+              <img src="/images/about-1.jpg" class="img-fluid" />
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-12 text-sec">
+            <h2>
+              We pride ourselves on making healthy food from the freshly
+              collected ingredients.
+            </h2>
+            <p class="details1">
+              We collect our fresh pestiside free ingredients from local
+              farmers. We Like to support the piller of our food economy.
+            </p>
+            <button class="white-btn inner-text mt-4">Learn More</button>
+          </div>
+        </div>
+      </div>
+      <div class="container food-type">
+        <div class="row align-items-center">
+          <div class="col-lg-5 col-md-12 text-sec mb-lg-0 mb-5">
+            <h2>
+              Everything is hand cooked with love to make you feel in home
+            </h2>
+            <p class="details1">
+              We all miss our mother's homecooked food right ? That's why we
+              have hired 100+ women. We Choose the fresh and organic
+              ingredients on market and make your meal.
+            </p>
+            <ul class="list-unstyled py-3">
+              <li>Sanitization Protocol is Maintained.</li>
+              <li>Every Meal is Freshly Made.</li>
+              <li>No Preservants are Added.</li>
+            </ul>
+            <button class="white-btn inner-text mt-4">Learn More</button>
+          </div>
+          <div class="col-lg-7 col-md-12">
+            <div class="card border-0">
+              <img src="/images/about-2.jpg" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section-3 story-->
+  <section id="story">
+    <div class="story-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="text-content">
+              <h2>
+                When a man's stomach is full it makes no difference whether he
+                is rich or poor.
+              </h2>
+              <p>
+                We try to get most of our resources from local people to help
+                in their business and try to feed as many as people possible
+                with zero waste
+              </p>
+              <button class="white-btn mt-3">Read More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section-4 explore food-->
+  <section id="explore-food">
+    <div class="explore-food wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="text-content text-center">
+              <h2>Our Bestsellers</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-5">
+          <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+            <div class="card">
+              <img class="Menus" src="/images/menu-img-1.jpg" class="img-fluid" />
+              <div class="pt-3">
+                <h4>Handmade Fruit Juices</h4>
+                <span>₹150 <del>₹200</del></span>
+                <button class="mt-4 white-btn inner-text">Order Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+            <div class="card">
+              <img class="Menus" src="/images/menu-img-2.jpg" class="img-fluid" />
+              <div class="pt-3">
+                <h4>Handmade Jelly</h4>
+                <span>₹120<del>₹150</del></span>
+                <button class="mt-4 white-btn inner-text">Order Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+            <div class="card">
+              <img class="Menus" src="/images/menu-img-3.jpg" class="img-fluid" />
+              <div class="pt-3">
+                <h4>Handmade Sandwitches</h4>
+                <span>₹180<del>₹230</del></span>
+                <button class="mt-4 white-btn inner-text">Order Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-5">
+          <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+            <div class="card">
+              <img class="Menus" src="/images/menu-img-4.jpg" class="img-fluid" />
+              <div class="pt-3">
+                <h4>Handmade Cookies</h4>
+                <span>₹250 <del>₹300</del></span>
+                <button class="mt-4 white-btn inner-text">Order Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+            <div class="card">
+              <img class="Menus" src="/images/menu-img-5.jpg" class="img-fluid" />
+              <div class="pt-3">
+                <h4>Handmade Smoothies</h4>
+                <span>₹200<del>₹220</del></span>
+                <button class="mt-4 white-btn inner-text">Order Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+            <div class="card">
+              <img class="Menus" src="/images/menu-img-6.jpg" class="img-fluid" />
+              <div class="pt-3">
+                <h4>Handmade Muffins</h4>
+                <span>₹350<del>₹370</del></span>
+                <button class="mt-4 white-btn inner-text">Order Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section-5 testimonial-->
+  <section id="testimonial">
+    <div class="wrapper testimonial-section">
+      <div class="container text-center">
+        <div class="text-center pb-4">
+          <h2>Our Motivation</h2>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-lg-10 offset-lg-1">
+            <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="carousel-caption">
+                    <img src="/images/Review-1.jpeg" />
+                    <p class="details1">
+                      “Their brunch is awesome, I love the avocado toast and
+                      the California focaccia. Pizza is really good as
+                      well.Also the ingredients are so fresh and the s service
+                      is lovely.”
+                    </p>
+                    <h5>Johnthan Doe</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="carousel-caption">
+                    <img src="/images/Review-2.jpeg" />
+                    <p class="details1">
+                      “One of the best places I've eaten on Cape Cod. Great
+                      Smoothies, awesome.Their fresh baked muffins are so good
+                      you will lick your fingers. ”
+                    </p>
+                    <h5>Maccy Doe</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="carousel-caption">
+                    <img src="/images/Review-3.jpeg" />
+                    <p class="details1">
+                      "This is always our breakfast stop before heading home
+                      from vacation. Always delicious. Always great service.
+                      Always worth the stop."
+                    </p>
+                    <h5>Johnthan Doe</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section-8 newslettar-->
+  <section id="newslettar">
+    <div class="newslettar wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="sol-sm-12">
+            <div class="text-content text-center pb-4">
+              <h2 style="color: lightyellow">
+                Hurry up! Subscribe our newsletter and get 25% Off
+              </h2>
+            </div>
+            <form class="newsletter">
+              <div class="row">
+                <div class="col-md-8 col-12">
+                  <input class="form-control" placeholder="Email Address here" name="email" type="email" />
+                </div>
+                <div class="col-md-4 col-12">
+                  <button class="white-btn" type="submit">Subscribe</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section-9 footer-->
+  <footer id="footer">
+    <div class="footer py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <a class="footer-link" href="#">Register</a>
+            <a class="footer-link" href="#">Forum</a>
+            <a class="footer-link" href="#">Affiliate</a>
+            <a class="footer-link" href="#">FAQ</a>
+            <div class="footer-social pt-4 text-center">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-dribbble"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="col-sm-12">
+            <div class="footer-copy">
+              <div class="copy-right text-center pt-5">
+                <p class="text-light">
+                  © 2023. Lunch Box. All rights reserved.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"></script>
+  <!-- own js -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
